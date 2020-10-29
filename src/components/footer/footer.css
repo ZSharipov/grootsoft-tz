@@ -1,0 +1,68 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.div-slide-btns {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  padding-right: 20px;
+}
+.slide-btns-back,
+.slide-btns-forward {
+  height: 3em;
+  width: 3em;
+  color: #ddd;
+  background-color: transparent;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  margin: 2em;
+  display: flex;
+  align-items: center;
+}
+.slide-btns-forward {
+  justify-content: flex-end;
+}
+.arrow-back {
+  margin-left: 50%;
+}
+.arrow-forward {
+  margin-right: 50%;
+}
+.label-active-page {
+  color: #ddd;
+  margin: 5px;
+  font-size: 0.8em;
+}
+.div-radio-buttons
+{
+  display: flex;  
+  flex-grow: 1;
+  align-items: center;
+}
+.div-radio {
+  display: flex;    
+  align-items: flex-end;
+  width: 100%;
+  padding: 0 6em;
+}
+.div-years{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-years label {
+  color: #ddd;
+  margin: 15px 0;
+}
+.div-line{
+  border-top: 2px solid #ddd;
+  flex-grow: 1;
+  margin: 5px 0;
+}
+
